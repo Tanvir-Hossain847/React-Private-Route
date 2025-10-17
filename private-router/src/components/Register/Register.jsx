@@ -17,8 +17,12 @@ const Register = () => {
             console.log(result.user);
         })
         .catch(error => {
-            console.log(error);
+            console.log(error);     
         })
+    }
+
+    const handleSignOut = () =>{
+      
     }
 
     // const handleSubmit = (event) => {
